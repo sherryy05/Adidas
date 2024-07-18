@@ -15,7 +15,7 @@ st.title(" :bar_chart: Dashboard Interactive Adidas Store")
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>', unsafe_allow_html=True)
 
 # Directly read the Excel file
-os.chdir(r"C:\Sherry Andiyani\Streamlit")
+# os.chdir(r"C:\Sherry Andiyani\Streamlit")
 df = pd.read_excel("Adidas.xlsx")
 
 col1, col2 = st.columns(2)
